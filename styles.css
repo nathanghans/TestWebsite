@@ -7,7 +7,7 @@
 body {
     background: #87CEEB;
     overflow-x: hidden;
-    padding: 40px 0;
+    padding: 0;
 }
 
 .tree {
@@ -17,11 +17,24 @@ body {
     gap: 0;
 }
 
+/* Canopy - full width leaves section */
+.canopy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
 /* Block styling */
 .block {
     width: 60px;
     height: 60px;
     margin: 0;
+    flex-shrink: 0;
     image-rendering: pixelated;
 }
 
@@ -57,17 +70,12 @@ body {
         4px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
-/* Leaves rows */
-.leaves-row {
-    display: flex;
-    justify-content: center;
-    gap: 0;
-}
-
+/* Trunk row - centered */
 .trunk-row {
     display: flex;
     justify-content: center;
     gap: 0;
+    width: 100%;
 }
 
 /* Responsive design */
