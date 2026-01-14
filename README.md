@@ -1,48 +1,49 @@
 # Minecraft Tree Website
 
-A blocky, Minecraft-themed website shaped like a tree!
+A pure, blocky Minecraft tree on a blue sky background!
 
 ## Features
 
-- **Blocky Tree Design**: The website is structured to resemble a pixelated Minecraft tree with leaves and trunk
-- **Authentic Minecraft Aesthetic**: Uses pixelated fonts, blocky textures, and classic Minecraft color schemes
-- **3D Block Effects**: Each block has shadows and highlights to create a 3D appearance
-- **Interactive Elements**: Hover effects on blocks and buttons
+- **Pure Tree Design**: Just a tree - nothing else on the page
+- **Scrollable Trunk**: The trunk extends down the page as you scroll
+- **Blocky Leaves**: 6 layers of green blocks forming the tree crown
+- **Long Trunk**: 50 brown trunk blocks extending downward
+- **3D Block Effects**: Each block has shadows and highlights for depth
+- **Blue Sky Background**: Simple sky blue background (#87CEEB)
 - **Responsive Design**: Adapts to different screen sizes
 
 ## File Structure
 
 ```
 TestWebsite/
-├── index.html      # Main HTML structure
-├── styles.css      # Minecraft-themed styling
+├── index.html      # Tree structure
+├── styles.css      # Minecraft-themed block styling
 └── README.md       # This file
 ```
 
 ## Design Elements
 
 ### Tree Structure
-- **Leaves**: Four layers of green blocks forming the tree crown
-- **Trunk**: Three brown blocks forming the tree trunk
-- **Content Box**: Floating content area overlaid on the tree
+- **Leaves**: 6 layers forming a pyramid shape (1-3-5-5-5-3 blocks)
+- **Trunk**: 50 brown blocks extending down the page
 
 ### Styling Features
-- Press Start 2P font (Minecraft-style pixelated font)
-- Textured blocks with gradient patterns
+- Minecraft-style textured blocks with gradient patterns
 - Box shadows for 3D depth
-- Floating animation
-- Sky-to-grass gradient background
+- Pixelated rendering
+- Pure blue sky background
+- No text, no buttons - just a tree
 
 ## How to Use
 
-Simply open `index.html` in a web browser to view the Minecraft tree website!
+Simply open `index.html` in a web browser and scroll down to see the full tree!
 
 ## Customization
 
 You can easily customize:
 - Block colors in `styles.css`
-- Tree shape by adding/removing blocks in `index.html`
-- Content in the content box
-- Button actions by adding JavaScript
+- Tree height by adding/removing trunk blocks in `index.html`
+- Leaf shape by modifying the leaves-row structure
+- Background color in `styles.css`
 
-Enjoy your blocky adventure!
+Enjoy your minimalist blocky tree!
