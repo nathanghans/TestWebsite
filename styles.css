@@ -41,13 +41,13 @@ body {
 /* Leaf blocks */
 .leaf {
     background: linear-gradient(135deg,
-        #2d5016 0%, #2d5016 25%,
-        #3d6b1f 25%, #3d6b1f 50%,
-        #2d5016 50%, #2d5016 75%,
-        #3d6b1f 75%, #3d6b1f 100%
+        #8B1010 0%, #8B1010 25%,
+        #B22222 25%, #B22222 50%,
+        #8B1010 50%, #8B1010 75%,
+        #B22222 75%, #B22222 100%
     );
     background-size: 8px 8px;
-    border: 3px solid #1a3d0a;
+    border: 3px solid #5A0000;
     box-shadow:
         inset -4px -4px 0px rgba(0, 0, 0, 0.3),
         inset 4px 4px 0px rgba(255, 255, 255, 0.2),
